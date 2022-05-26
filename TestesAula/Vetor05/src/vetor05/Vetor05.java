@@ -2,30 +2,25 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package vetor04;
-
+package vetor05;
 import java.util.Arrays;
 
 /**
  *
  * @author Cedric
  */
-public class Vetor04 {
+public class Vetor05 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int vet[] = {3, 7, 6, 1, 9, 4, 2};
-        Arrays.sort(vet);
-        for(int v: vet){
-            System.out.print(v + " ");
+        int v[] = new int [20];
+        Arrays.fill(v, 0);
+        for(int valor: v){
+            System.out.print(valor +" ");
         }
-        System.out.println("");
-        
-        int p = Arrays.binarySearch(vet, 7);
-        System.out.println("Encontrei o valor na posição " + p);
     }
     
 }
